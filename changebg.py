@@ -17,54 +17,54 @@ def set_wallpaper(bmp_path):
     win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER,bmp_path, win32con.SPIF_SENDWININICHANGE)
 
 
-now = time.strftime('%H')      #得到系统现在的时间（只得到小时数）
+path = 'C:\\Users\\bmp\\'   # 图片路径
+now =time.strftime('%H')
 if __name__ == '__main__':
     if now == "00":
-        set_wallpaper('XXX\\pm12.bmp')
+        set_wallpaper(path + 'pm12.bmp')
     elif now == "01":
-        set_wallpaper('XXX\\am1.bmp')
+        set_wallpaper(path + 'am1.bmp')
     elif now == "02":
-        set_wallpaper('XXX\\am2.bmp')
+        set_wallpaper(path + 'am2.bmp')
     elif now == "03":
-        set_wallpaper('XXX\\am3.bmp')
+        set_wallpaper(path + 'am3.bmp')
     elif now == "04":
-        set_wallpaper('XXX\\am4.bmp')
+        set_wallpaper(path + 'am4.bmp')
     elif now == "05":
-        set_wallpaper('XXX\\am5.bmp')
+        set_wallpaper(path + 'am5.bmp')
     elif now == "06":
-        set_wallpaper('XXX\\am6.bmp')
+        set_wallpaper(path + 'am6.bmp')
     elif now == "07":
-        set_wallpaper('XXX\\am7.bmp')
+        set_wallpaper(path + 'am7.bmp')
     elif now == "08":
-        set_wallpaper('XXX\\am8.bmp')
+        set_wallpaper(path + 'am8.bmp')
     elif now == "09":
-        set_wallpaper('XXX\\am9.bmp')
+        set_wallpaper(path + 'am9.bmp')
     elif now == "10":
-        set_wallpaper('XXX\\am10.bmp')
+        set_wallpaper(path + 'am10.bmp')
     elif now == "11":
-        set_wallpaper('XXX\\am11.bmp')
+        set_wallpaper(path + 'am11.bmp')
     elif now == "12":
-        set_wallpaper('XXX\\am12.bmp')
+        set_wallpaper(path + 'am12.bmp')
     elif now == "13":
-        set_wallpaper('XXX\\pm1.bmp')
+        set_wallpaper(path + 'pm1.bmp')
     elif now == "14":
-        set_wallpaper('XXX\\pm2.bmp')
+        set_wallpaper(path + 'pm2.bmp')
     elif now == "15":
-        set_wallpaper('XXX\\pm3.bmp')
+        set_wallpaper(path + 'pm3.bmp')
     elif now == "16":
-        set_wallpaper('XXX\\pm4.bmp')
+        set_wallpaper(path + 'pm4.bmp')
     elif now == "17":
-        set_wallpaper('XXX\\pm5.bmp')
+        set_wallpaper(path + 'pm5.bmp')
     elif now == "18":
-        set_wallpaper('XXX\\pm6.bmp')
+        set_wallpaper(path + 'pm6.bmp')
     elif now == "19":
-        set_wallpaper('XXX\\pm7.bmp')
+        set_wallpaper(path + 'pm7.bmp')
     elif now == "20":
-        set_wallpaper('XXX\\pm8.bmp')
+        set_wallpaper(path + 'pm8.bmp')
     elif now == "21":
-        set_wallpaper('XXX\\pm9.bmp')
+        set_wallpaper(path + 'pm9.bmp')
     elif now == "22":
-        set_wallpaper('XXX\\pm10.bmp')
+        set_wallpaper(path + 'pm10.bmp')
     elif now == "23":
-        set_wallpaper('XXX\\pm11.bmp')
-
+        set_wallpaper(path + 'pm11.bmp')
