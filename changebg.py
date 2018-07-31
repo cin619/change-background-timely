@@ -17,7 +17,7 @@ def set_wallpaper(bmp_path):
     win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER,bmp_path, win32con.SPIF_SENDWININICHANGE)
 
 
-now =time.strftime('%H')      #得到系统现在的时间（只得到小时数）
+now = time.strftime('%H')      #得到系统现在的时间（只得到小时数）
 if __name__ == '__main__':
     if now == "00":
         set_wallpaper('XXX\\pm12.bmp')
